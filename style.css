@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  font-size: 30px;
+  width: 50px;
+  height: 70px;
+}
+input {
+  font-size: 20px;
+  width: 205px;
+  height: 40px;
+  border: 2px solid;
+}
+#container {
+  padding: 200px;
+}
