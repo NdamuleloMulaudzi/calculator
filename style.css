@@ -9,6 +9,9 @@ button {
   width: 50px;
   height: 70px;
 }
+#backspaceBtn {
+  width: 163px;
+}
 input {
   font-size: 20px;
   width: 205px;
