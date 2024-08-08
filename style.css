@@ -4,20 +4,24 @@ body {
   justify-content: center;
   align-items: center;
 }
+.calculator {
+  width: 200px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  gap: 10px;
+}
+#display {
+  grid-column: span 4;
+  height: 50px;
+  background-color: #222;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  font-size: 24px;
+  box-sizing: border-box;
+}
 button {
-  font-size: 30px;
-  width: 50px;
-  height: 70px;
-}
-#backspaceBtn {
-  width: 163px;
-}
-input {
-  font-size: 20px;
-  width: 205px;
-  height: 40px;
-  border: 2px solid;
-}
-#container {
-  padding: 200px;
+  height: 50px;
+  font-size: 18px;
 }
